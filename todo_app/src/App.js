@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      <h1>Simple To-Do App</h1>
+      <h1>To-Do App</h1>
 
       <input type="text" value={inputval} onChange={(e) => setInput(e.target.value)}/>
 
